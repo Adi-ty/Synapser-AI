@@ -1,6 +1,6 @@
 # Synapser-AI: AI-Powered Note Taking App
 
-Synapser-AI is an innovative note-taking application that leverages the power of artificial intelligence to enhance your note-taking experience. With Synapser-AI, you can create and manage multiple notebooks, each of which is equipped with a dynamic thumbnail generated from the notebook's name using DALLE API. In addition, our application offers a stunning Markdown editor powered by TipTap, supporting all standard Markdown features and further enhanced by AI-driven autocompletion provided by OpenAI's API.
+Synapser-AI is an innovative note-taking application that leverages the power of artificial intelligence to enhance your note-taking experience. With Synapser-AI, you can create and manage multiple notebooks, each of which is equipped with a dynamic thumbnail generated from the notebook's name using DALLE API. Plus, there is a beautiful Markdown editor powered by TipTap, supporting all standard Markdown features and further enhanced by AI-driven autocompletion provided by OpenAI's API.
 
 ## Features
 
@@ -8,7 +8,7 @@ Synapser-AI is an innovative note-taking application that leverages the power of
 
 - **AI-Generated Thumbnails:** Each notebook is adorned with a beautiful and relevant thumbnail, automatically generated based on the notebook's name using OpenAI's API.
 
-- **Markdown Editor:** Our Markdown editor, powered by Tip Tap, provides a seamless and visually appealing writing experience.
+- **Markdown Editor:** Our Markdown editor, powered by [TipTap](https://tiptap.dev/), provides a seamless and visually appealing writing experience.
 
 - **AI Autocompletion:** Enjoy AI-driven autocompletion suggestions to enhance your Markdown editing efficiency. OpenAI's API powers this feature.
 
@@ -18,7 +18,7 @@ Follow these steps to get started with Synapser-AI:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/synapser-ai/synapser-ai.git
+   git clone https://github.com/{your username}/synapser-ai.git
    ```
 2. **Install Dependencies:**
    Navigate to the project directory and install the necessary dependencies.
