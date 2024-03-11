@@ -1,6 +1,7 @@
 import { db } from "@/lib/db";
 import { $notes } from "@/lib/db/schema";
-import { generateImage, generateImagePrompt } from "@/lib/openai";
+import { generateImagePrompt } from "@/lib/gemini";
+import { generateImage } from "@/lib/huggingface";
 import { auth } from "@clerk/nextjs";
 import { NextResponse } from "next/server";
 
@@ -19,7 +20,7 @@ export async function POST(req: Request) {
             status: 500,
         });
 
-    const image_url = await generateImage(image_description);
+    const image_url = await generateImage(image_description, name);
     if (!image_url)
         return new NextResponse("failed to generate image", {
             status: 500,
